@@ -6,8 +6,8 @@ require 'yaml'
 def load_library(file_path)
   f = YAML.load_file(file_path)
   h = {
-    :get_meaning,
-    :get_emoticon,
+    :get_meaning => {}
+    :get_emoticon => {}
   }
   # code goes here
 end
