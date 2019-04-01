@@ -10,7 +10,7 @@ def load_library(file_path)
     :get_emoticon => {}
   }
   for i in f
-    print 
+    print
   # code goes here
 end
 
