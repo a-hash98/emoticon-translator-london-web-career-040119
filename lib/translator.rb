@@ -4,7 +4,10 @@ require 'yaml'
 # require modules here
 
 def load_library(file_path)
-  return file_path
+  h = {
+    :get_meaning => {}
+    :get_emoticon => {}
+  }
   # code goes here
 end
 
