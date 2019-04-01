@@ -4,7 +4,7 @@ require 'yaml'
 # require modules here
 
 def load_library(file_path)
-  return file_path
+  return {file_path}
   # code goes here
 end
 
